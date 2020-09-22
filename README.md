@@ -13,7 +13,8 @@ são possíveis as seguintes operações:
 1. Criar um virtualenv com Python 3.8 - `virtualenv env`
 2. Ativar o virtualenv utilizando - `source env/bin/activate`
 3. Instalar as bibliotecas necessárias - `pip install -r requirements.txt`
-4. Iniciar o servidor local - `python manage.py runserver`
+4. Criar o banco de dados local na estrutura correta - `python manage.py migrate`
+5. Iniciar o servidor local - `python manage.py runserver`
 
 ## Rotas e payloads
 
